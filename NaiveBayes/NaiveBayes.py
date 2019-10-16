@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas import DataFrame
 
-df_golf = DataFrame.from_csv(r"D:\Machine-Learning-15CSL76-LAB-master\Machine-Learning-15CSL76-LAB-master\golf.csv")
+df_golf = DataFrame.from_csv(r"D:\Machine-Learning-15CSL76-LAB-master\Machine-Learning-15CSL76-LAB-master\tennis.csv")
 print(df_golf)
 
 attribute_names = list(df_golf.columns)
