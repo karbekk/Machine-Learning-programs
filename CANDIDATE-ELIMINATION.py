@@ -1,5 +1,5 @@
 import csv
-with open('/content/findsss.csv') as finds:
+with open('/content/golf.csv') as finds:
   reader = csv.reader(finds)
   data = list(reader)
 print(data)
